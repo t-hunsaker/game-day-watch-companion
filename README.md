@@ -1,3 +1,19 @@
+## Demo Preview
+![Watch Dashboard](docs/images/dashboard-v1.png)
+A smartwatch companion that surfaces live baseball game state (inning, count, outs, score) in a glanceable dashboard—so you never need to pull out your phone during a game.
+
+## Why This Matters
+During live games, constantly checking a phone for count, outs, and inning is distracting and inefficient. This project solves that by delivering real-time game state directly to a smartwatch in a clean, glanceable format.
+
+## Current Status
+Planning and design phase complete  
+Next step: build phone-to-watch sync MVP
+
+## Tech Direction
+- Kotlin (Android)
+- Wear OS (Samsung Galaxy Watch)
+- Phone-to-watch sync via Data Layer API
+
 # Game Day Watch Companion
 
 ## Overview
@@ -40,6 +56,11 @@ Smartwatch Dashboard (Wear OS)
 - [ ] Explore GameChanger data ingestion
 - [ ] Add watch Tile support
 - [ ] Add complication support
+
+## Future Enhancements
+- Watch Tile support
+- GameChanger data ingestion
+- Custom alerts (e.g., scoring plays)
 
 ## Status
 Planning phase
